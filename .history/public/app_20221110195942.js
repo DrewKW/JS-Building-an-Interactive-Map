@@ -4,7 +4,7 @@ const myMap = L.map('map', {
     zoom: 12,
 });
 
-// Build leaflet map
+// build leaflet map
 buildMap() {
     this.map = L.map('map', {
     center: this.coordinates,
